@@ -4,14 +4,13 @@ var ReactDOM = require('react-dom');
 var Base = require('./components/Base.jsx');
 
 var social = {
-    twitter: 'vietlq',
-    facebook: 'vietlq85',
-    instagram: 'vietlq',
+    twitter: 'code2pro',
+    facebook: 'Code2Pro',
 };
 
 var headerDetails = {
-    title: 'VietExpat News',
-    subtitle: 'Top News for Vietnamese Expats',
+    title: 'Code2Pro',
+    subtitle: 'Train Developers for Top Tech Jobs',
     social: social
 }
 

@@ -19,7 +19,8 @@ var Header = React.createClass({
                     <Social social={social} />
                 </div>
                 <div className="custom-clear-div"></div>
-
+                <br/><br/>
+                {/*
                 <div className="col-sm-12">
                     <div className="header-nav-menu">
                         <ul>
@@ -31,6 +32,7 @@ var Header = React.createClass({
                         <div className="custom-clear-div"></div>
                     </div>
                 </div>
+                */}
             </div>
         );
     }

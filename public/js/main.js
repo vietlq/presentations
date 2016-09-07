@@ -26046,39 +26046,8 @@ var Header = React.createClass({
                 React.createElement(Social, { social: social })
             ),
             React.createElement('div', { className: 'custom-clear-div' }),
-            React.createElement(
-                'div',
-                { className: 'col-sm-12' },
-                React.createElement(
-                    'div',
-                    { className: 'header-nav-menu' },
-                    React.createElement(
-                        'ul',
-                        null,
-                        React.createElement(
-                            'li',
-                            null,
-                            React.createElement(
-                                Link,
-                                { to: '/news', className: 'btn btn-raised',
-                                    activeClassName: 'btn-danger' },
-                                'News'
-                            )
-                        ),
-                        React.createElement(
-                            'li',
-                            null,
-                            React.createElement(
-                                Link,
-                                { to: '/photos', className: 'btn btn-raised',
-                                    activeClassName: 'btn-danger' },
-                                'Photos'
-                            )
-                        )
-                    ),
-                    React.createElement('div', { className: 'custom-clear-div' })
-                )
-            )
+            React.createElement('br', null),
+            React.createElement('br', null)
         );
     }
 });
@@ -26094,7 +26063,24 @@ var PageBody = React.createClass({
     displayName: "PageBody",
 
     render: function render() {
-        return React.createElement("div", { className: "page-body-container" });
+        return React.createElement(
+            "div",
+            { className: "page-body-container" },
+            React.createElement(
+                "div",
+                { className: "col-sm-12" },
+                React.createElement(
+                    "div",
+                    { className: "well" },
+                    React.createElement(
+                        "div",
+                        { className: "row news-item-main" },
+                        React.createElement("div", { className: "col-sm-10" }),
+                        React.createElement("div", { className: "col-sm-2" })
+                    )
+                )
+            )
+        );
     }
 });
 
@@ -26197,14 +26183,13 @@ var ReactDOM = require('react-dom');
 var Base = require('./components/Base.jsx');
 
 var social = {
-    twitter: 'vietlq',
-    facebook: 'vietlq85',
-    instagram: 'vietlq'
+    twitter: 'code2pro',
+    facebook: 'Code2Pro'
 };
 
 var headerDetails = {
-    title: 'VietExpat News',
-    subtitle: 'Top News for Vietnamese Expats',
+    title: 'Code2Pro',
+    subtitle: 'Train Developers for Top Tech Jobs',
     social: social
 };
 
