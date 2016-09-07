@@ -14,13 +14,13 @@ var PageBody = React.createClass({
                     <div className="well">
                         <div className="row">
                             <div className="col-sm-12 slides-holder">
-                                <iframe allowFullScreen frameBorder="0"
+                                <iframe id="video-live-stream" allowFullScreen frameBorder="0"
+                                    height="243" width="432"
+                                    src="https://www.youtube.com/embed/-GnebGxHee4"></iframe>
+                                <iframe id="slides-frame" allowFullScreen frameBorder="0"
                                     height="100%" width="100%"
                                     src="https://www.youtube.com/embed/-GnebGxHee4"></iframe>
                             </div>
-                            <iframe id="video-live-stream" allowFullScreen frameBorder="0"
-                                height="243" width="432"
-                                src="https://www.youtube.com/embed/-GnebGxHee4"></iframe>
                             <br/>
                             <div className="col-sm-12">
                                 <iframe allowFullScreen frameBorder="0"

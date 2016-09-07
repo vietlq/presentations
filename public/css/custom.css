@@ -99,6 +99,6 @@ iframe.live-stream {
 
 #video-live-stream {
     position: absolute;
-    top: 19px;
-    right: 34px;
+    top: 0;
+    right: 14px;
 }
