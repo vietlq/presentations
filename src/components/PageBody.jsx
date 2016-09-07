@@ -28,7 +28,7 @@ var PageBody = React.createClass({
                             <br/>
                             <div className="col-sm-12">
                                 <iframe allowFullScreen frameBorder="0"
-                                    height="234" width="416"
+                                    height="400" width="100%"
                                     src="https://www.youtube.com/live_chat?v=gtj6Yc4MWxU&embed_domain=vietlq.github.io"></iframe>
                                 <div id="disqus_thread"></div>
                             </div>
