@@ -12,9 +12,9 @@ var Base = React.createClass({
                 <div className="page-base-main">
                     <div className="container">
                         <Header headerDetails={headerDetails} />
-                        <div className="page-base-body">
-                            <PageBody />
-                        </div>
+                    </div>
+                    <div className="container-fluid">
+                        <PageBody />
                     </div>
                 </div>
                 <div className="page-base-footer">

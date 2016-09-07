@@ -10,17 +10,13 @@ var PageBody = React.createClass({
     render: function() {
         return (
             <div className="page-body-container">
-                <div className="col-sm-12">
+                <div className="col-sm-12 col-lg-10 col-lg-offset-1">
                     <div className="well">
                         <div className="row">
                             <div className="col-sm-12 slides-holder">
                                 <iframe allowFullScreen frameBorder="0"
                                     height="100%" width="100%"
                                     src="https://www.youtube.com/embed/-GnebGxHee4"></iframe>
-                            </div>
-                            <div className="col-sm-7">
-                            </div>
-                            <div className="col-sm-5">
                             </div>
                             <iframe id="video-live-stream" allowFullScreen frameBorder="0"
                                 height="243" width="432"
