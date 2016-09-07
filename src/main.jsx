@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Base = require('../components/Base.jsx');
+var Base = require('./components/Base.jsx');
 
 var social = {
     twitter: 'vietlq',

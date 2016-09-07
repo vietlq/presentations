@@ -1,5 +1,6 @@
 var React = require('react');
 var Header = require('./Header.jsx')
+var PageBody = require('./PageBody.jsx')
 
 var Base = React.createClass({
     render: function() {
@@ -12,7 +13,7 @@ var Base = React.createClass({
                     <div className="container">
                         <Header headerDetails={headerDetails} />
                         <div className="page-base-body">
-                            {this.props.children}
+                            <PageBody />
                         </div>
                     </div>
                 </div>
