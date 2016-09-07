@@ -92,3 +92,9 @@
 iframe.live-stream {
     border: 1px solid #0288D1;
 }
+
+#video-live-stream {
+    position: absolute;
+    top: 19px;
+    right: 34px;
+}
