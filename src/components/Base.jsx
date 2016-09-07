@@ -3,7 +3,7 @@ var Header = require('./Header.jsx')
 
 var Base = React.createClass({
     render: function() {
-        let headerDetails = this.props.route.headerDetails || {};
+        let headerDetails = this.props.headerDetails || {};
 
         return (
             <div className="page-base-outer-container">
