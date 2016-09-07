@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>Dev Viet Ra Khơi: Singapore và UK (Hangout On Air)</title>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Dev Viet Ra Khơi: Singapore và UK (Hangout On Air)</title>
+        <!-- Material Design fonts -->
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <!-- Bootstrap Material Design -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-material-design.min.css">
+        <link rel="stylesheet" type="text/css" href="css/ripples.min.css">
+        <!-- Font Awesome - http://fontawesome.io/get-started/ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+    </head>
+    <body>
+        <div id="main-page-container"></div>
 
-<body>
-    <iframe allowfullscreen frameborder="0" height="270" width="480"
-        src="https://www.youtube.com/embed/-GnebGxHee4"></iframe>
-    <br/>
-    <!--
-    <iframe allowfullscreen frameborder="0" height="270" width="480"
-        src="https://www.youtube.com/embed/gtj6Yc4MWxU"></iframe>
-    <br/>
-    -->
-    <iframe allowfullscreen frameborder="0" height="270" width="480"
-        src="https://www.youtube.com/live_chat?v=gtj6Yc4MWxU&embed_domain=vietlq.github.io"></iframe>
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Ripples.js will enable visual effect of ripples on mouse clicks -->
+        <script src="js/ripples.min.js"></script>
+        <!-- Arrive.js will enable Material Design for newly created DOM elements -->
+        <script src="js/arrive.min.js"></script>
+        <script src="js/material.min.js"></script>
+        <script src="js/main.js"></script>
+        <!-- Enable Material Design or it didn't happen -->
+        <script>
+            $.material.init();
+            $.material.ripples('.btn', '.social-items a');
+        </script>
 
-    <!-- Disqus thread starts here -->
-    <div id="disqus_thread"></div>
-    <script>
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-    var disqus_config = function () {
-        this.page.url = 'https://vietlq.github.io/presentations/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'code2pro/event/2/dev-viet-ra-khoi-general'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = '//code2pro.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <!-- Disqus script ends here -->
+        <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+        var disqus_config = function () {
+            this.page.url = 'https://vietlq.github.io/presentations/';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = 'code2pro/event/2/dev-viet-ra-khoi-general'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = '//code2pro.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-    <script id="dsq-count-scr" src="//code2pro.disqus.com/count.js" async></script>
-    <!-- Disqus thread ends here -->
-</body>
+        <script id="dsq-count-scr" src="//code2pro.disqus.com/count.js" async></script>
+        <!-- Disqus script ends here -->
+    </body>
 </html>
