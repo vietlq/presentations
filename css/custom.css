@@ -89,6 +89,10 @@
     clear: both;
 }
 
+.slides-holder {
+    min-height: 603px;
+}
+
 iframe.live-stream {
     border: 1px solid #0288D1;
 }
