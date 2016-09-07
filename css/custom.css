@@ -89,31 +89,6 @@
     clear: both;
 }
 
-.news-item-logo img {
-    width: 120px;
-    height: 120px;
-    margin-bottom: 30px;
-}
-
-.news-item-main {
-    padding: 20px;
-}
-
-.news-item-body {
-    word-wrap: break-word;
-    text-align: justify;
-}
-
-.thumbnail-holder {
-    /* display: flex; */
-}
-
-.thumbnail-holder .thumbnail {
-    margin-right: 30px;
-    float: left;
-}
-
-.thumbnail-holder .thumbnail img {
-    width: 160px;
-    height: 160px;
+iframe.live-stream {
+    border: 1px solid #0288D1;
 }
