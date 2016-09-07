@@ -23,3 +23,5 @@ https://help.github.com/articles/using-a-custom-domain-with-github-pages/
 https://help.github.com/articles/user-organization-and-project-pages/
 
 https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
+
+https://skalman.github.io/UglifyJS-online/

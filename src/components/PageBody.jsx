@@ -26,10 +26,12 @@ var PageBody = React.createClass({
                                 height="243" width="432"
                                 src="https://www.youtube.com/embed/-GnebGxHee4"></iframe>
                             <br/>
-                            <iframe allowFullScreen frameBorder="0"
-                                height="234" width="416"
-                                src="https://www.youtube.com/live_chat?v=gtj6Yc4MWxU&embed_domain=vietlq.github.io"></iframe>
-                            <div id="disqus_thread"></div>
+                            <div className="col-sm-12">
+                                <iframe allowFullScreen frameBorder="0"
+                                    height="234" width="416"
+                                    src="https://www.youtube.com/live_chat?v=gtj6Yc4MWxU&embed_domain=vietlq.github.io"></iframe>
+                                <div id="disqus_thread"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
