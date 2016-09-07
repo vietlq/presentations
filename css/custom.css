@@ -93,6 +93,10 @@
     min-height: 603px;
 }
 
+.video-holder {
+    min-height: 400px;
+}
+
 iframe.live-stream {
     border: 1px solid #0288D1;
 }
