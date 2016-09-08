@@ -15,19 +15,17 @@ var PageBody = React.createClass({
                         <div className="row">
                             <div className="col-sm-12 col-lg-9 slides-holder">
                                 <iframe id="slides-frame" allowFullScreen frameBorder="0"
-                                    height="100%" width="100%"
                                     src="./slides.html"></iframe>
                             </div>
                             <div className="col-sm-12 col-lg-3 video-holder">
                                 <iframe id="video-live-stream" allowFullScreen frameBorder="0"
-                                    height="100%" width="100%"
                                     src="https://www.youtube.com/embed/-GnebGxHee4"></iframe>
                             </div>
                             <br/>
                             <div className="col-sm-12">
                                 <iframe allowFullScreen frameBorder="0"
                                     height="400" width="100%"
-                                    src="https://www.youtube.com/live_chat?v=gtj6Yc4MWxU&embed_domain=vietlq.github.io"></iframe>
+                                    src="https://www.youtube.com/live_chat?v=-GnebGxHee4&embed_domain=vietlq.github.io"></iframe>
                                 <div id="disqus_thread"></div>
                             </div>
                         </div>
