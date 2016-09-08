@@ -18,6 +18,7 @@ var PageBody = React.createClass({
                                     src="./slides.html"></iframe>
                             </div>
                             <div className="col-sm-12 col-lg-3 video-holder">
+                                <div className="dummy"></div>
                                 <iframe id="video-live-stream" allowFullScreen frameBorder="0"
                                     src="https://www.youtube.com/embed/-GnebGxHee4"></iframe>
                             </div>
