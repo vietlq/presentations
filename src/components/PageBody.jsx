@@ -13,15 +13,19 @@ var PageBody = React.createClass({
                 <div className="col-sm-12 col-lg-10 col-lg-offset-1">
                     <div className="well">
                         <div className="row">
-                            <div className="col-sm-12 col-lg-9 slides-holder">
-                                <div className="dummy"></div>
-                                <iframe id="slides-frame" allowFullScreen frameBorder="0"
-                                    src="./slides.html"></iframe>
+                            <div className="col-sm-12 col-lg-9">
+                                <div className="slides-holder">
+                                    <div className="dummy"></div>
+                                    <iframe id="slides-frame" allowFullScreen frameBorder="0"
+                                        src="./slides.html"></iframe>
+                                </div>
                             </div>
-                            <div className="col-sm-12 col-lg-3 video-holder">
-                                <div className="dummy"></div>
-                                <iframe id="video-live-stream" allowFullScreen frameBorder="0"
-                                    src="https://www.youtube.com/embed/-GnebGxHee4"></iframe>
+                            <div className="col-sm-12 col-lg-3">
+                                <div className="video-holder">
+                                    <div className="dummy"></div>
+                                    <iframe id="video-live-stream" allowFullScreen frameBorder="0"
+                                        src="https://www.youtube.com/embed/-GnebGxHee4"></iframe>
+                                </div>
                             </div>
                             <br/>
                             <div className="col-sm-12">

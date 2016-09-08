@@ -93,9 +93,12 @@
     clear: both;
 }
 
+/* http://stackoverflow.com/questions/5445491/height-equal-to-dynamic-width-css-fluid-layout/6615994#6615994 */
+/* http://stackoverflow.com/questions/651317/div-width-100-minus-fixed-amount-of-pixels */
 .slides-holder {
-    min-height: 320px;
+    display: inline-block;
     position: relative;
+    width: 100%;
 }
 
 .slides-holder .dummy {
@@ -106,20 +109,17 @@
 
 #slides-frame {
     position: absolute;
-    width: -o-calc(100% - 30px);
-    width: -moz-calc(100% - 30px);
-    width: -webkit-calc(100% - 30px);
-    width: calc(100% - 30px);
+    width: 100%;
     height: 100%;
     top: 0;
     bottom: 0;
-    left: 15px;
+    left: 0;
 }
 
 .video-holder {
+    display: inline-block;
     position: relative;
-    min-width: 208px;
-    min-height: 117px;
+    width: 100%;
 }
 
 .video-holder .dummy {
@@ -128,18 +128,11 @@
     min-width: 100px;
 }
 
-iframe.live-stream {
-    border: 1px solid #0288D1;
-}
-
 #video-live-stream {
     position: absolute;
-    width: -o-calc(100% - 30px);
-    width: -moz-calc(100% - 30px);
-    width: -webkit-calc(100% - 30px);
-    width: calc(100% - 30px);
+    width: 100%;
     height: 100%;
     top: 0;
     bottom: 0;
-    left: 15px;
+    left: 0;
 }
