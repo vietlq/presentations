@@ -14,6 +14,7 @@ var PageBody = React.createClass({
                     <div className="well">
                         <div className="row">
                             <div className="col-sm-12 col-lg-9 slides-holder">
+                                <div className="dummy"></div>
                                 <iframe id="slides-frame" allowFullScreen frameBorder="0"
                                     src="./slides.html"></iframe>
                             </div>
