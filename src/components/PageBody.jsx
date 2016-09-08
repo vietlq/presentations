@@ -8,6 +8,10 @@ var React = require('react');
 
 var PageBody = React.createClass({
     render: function() {
+        var tail = Math.floor(Math.random() * 987654321);
+        console.log(tail);
+        var slidesUrl = "./slides.html?" + tail;
+
         return (
             <div className="page-body-container">
                 <div className="col-sm-12 col-lg-10 col-lg-offset-1">
@@ -17,7 +21,7 @@ var PageBody = React.createClass({
                                 <div className="slides-holder">
                                     <div className="dummy"></div>
                                     <iframe id="slides-frame" allowFullScreen frameBorder="0"
-                                        src="./slides.html"></iframe>
+                                        src={slidesUrl}></iframe>
                                 </div>
                             </div>
                             <div className="col-sm-12 col-lg-3">
