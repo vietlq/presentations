@@ -10,7 +10,7 @@ var social = {
 
 var headerDetails = {
     title: 'Code2Pro',
-    subtitle: 'Train Developers for Top Tech Jobs',
+    subtitle: 'Dream Tech Career Within Your Reach',
     social: social
 }
 
