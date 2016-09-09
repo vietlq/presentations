@@ -32,12 +32,14 @@ var PageBody = React.createClass({
                                 </div>
                             </div>
                             <br/>
+                            {/*
                             <div className="col-sm-12">
                                 <iframe allowFullScreen frameBorder="0"
                                     height="400" width="100%"
                                     src="https://www.youtube.com/live_chat?v=-GnebGxHee4&embed_domain=vietlq.github.io"></iframe>
                                 <div id="disqus_thread"></div>
                             </div>
+                            */}
                         </div>
                     </div>
                 </div>
